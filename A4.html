@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="shortcut icon" href="logo/logo.png" type="image/x-icon">
+    <!--CSS-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--TITLE-->
+
+    <title> A4 </title>
+
+</head>
+
+
+
+<body id="bodya4" onload="canvas()">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary col-12">
+        <div class="container col-12">
+            <a class="navbar-brand mx-auto" href="index.html"><img id="logo" src="logo\a4_2.jpg" alt="logo"><span class="mx-3">Imágenes en hojas A4</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barra" aria-controls="barra" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+            <div class="collapse navbar-collapse" id="barra">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item mx-5">
+                        <div class="col-auto my-auto p-1">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ventana">Contacto</button>
+                            <div class="modal" tabindex="-1" role="dialog" id="ventana">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Contacto</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Cristian Camilo Cárdenas Rodríguez</p>
+                                            <p>cc_camilo@hotmail.com</p>
+                                            <p id="number">+57 317 4830369</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ingreso.html">Ingreso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registro.html">Registro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="tituloh1">
+        <h1>HOJA TAMAÑO A4</h1>
+    </div>
+    <div class="container2">
+        <section id="main">
+            <canvas id="canvas" width="1123" height="796"></canvas>
+        </section>
+    </div>
+    <footer class="row site-footer " id="footer">
+        <div class="col-auto mx-auto " id="derechos_a4">@Derechos Reservados</div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="javascript/A4.min.js"></script>
+</body>
+
+</html>
