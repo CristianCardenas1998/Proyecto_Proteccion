@@ -10,7 +10,7 @@ function canvas() {
             var img = new Image();
             img.src = `img/imagen (${contador}).jpg`
             img.onload = function() {
-                imagen.drawImage(img, 0, 0, 1123, 796)
+                imagen.drawImage(img, 0, 0, 796, 1123)
             }
         }
         if (contador <= 188) {
